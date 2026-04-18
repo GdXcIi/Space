@@ -1,0 +1,16 @@
+[package]
+name = "Space"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [
+    "kernel",
+    "runtime",
+    "modules/shared",
+    "modules/system/fs",
+    "modules/system/ui"
+]
+resolver = "2"
