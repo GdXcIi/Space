@@ -1,0 +1,16 @@
+[package]
+name = "kernel-core/smm"
+version = "0.1.0"
+authors = ["Guillaume DUPUIS <guillaume.dupuis.kernel@gmail.com"]
+edition = "2024"
+
+[dependencies]
+bitflags = "2"
+
+[features]
+std = []
+
+[[bin]]
+name = "smm"
+path = "src/main.rs"
+required-features = ["std"]
