@@ -1,5 +1,5 @@
 [package]
-name = "kernel-core/smm"
+name = "smm"
 version = "0.1.0"
 authors = ["Guillaume DUPUIS <guillaume.dupuis.kernel@gmail.com"]
 edition = "2024"

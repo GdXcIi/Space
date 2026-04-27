@@ -8,7 +8,7 @@ edition = "2024"
 [workspace]
 members = [
     "kernel-core",
-    "kernel-core/mm",
+    "smm",
     "runtime",
     "modules/shared",
     "modules/system/fs",

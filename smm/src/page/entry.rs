@@ -4,7 +4,7 @@ use crate::{
     Arch,
     PageFlags,
     PhysicalAddress,
-}
+};
 
 #[derive(Clone, Copy, Debug)]
 pub struct PageEntry<A> {
